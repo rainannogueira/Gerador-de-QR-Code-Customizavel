@@ -1,0 +1,75 @@
+@media screen and (max-width: 830px) {
+    body {
+        gap: 0;
+        align-items: start;
+        justify-content: start;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    main {
+        flex-flow: column;
+        gap: 0;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 0;
+        min-width: 100vw;
+    }
+
+    section {
+        background-color: transparent;
+        border-radius: 0;
+        padding: 20px 18px;
+        width: 100%;
+    }
+
+    #url {
+        input {
+            font-size: 1em;
+            border: 2px solid #808080;
+            padding: 8px 10px;
+        }
+
+        input:focus {
+            border: 3px solid #1d5dec;
+        }
+    }
+
+    label {
+        font-size: 1em;
+    }
+
+    img {
+        max-width: 200px;
+        animation: none;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    #colors-inputs {
+        input {
+            border: 1px solid #808080;
+        }
+    }
+
+    #logo-file {
+        font-size: 1em;
+        padding: 8px 10px;
+    }
+
+    select {
+        font-size: 1em;
+        padding: 8px 10px;
+    }
+
+    button {
+        font-size: 1em;
+        border: none;
+        padding: 8px 10px;
+        margin-top: 20px;
+    }
+}

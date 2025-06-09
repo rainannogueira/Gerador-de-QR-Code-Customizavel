@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+span {
+    color: #1d5dec;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    gap: 8px;
+    border-radius: 22px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.300);
+    padding: 8px;
+}
+
+section {
+    background-color: #80808027;
+    display: flex;
+    flex-flow: column;
+    border-radius: 15px;
+    padding: 10px;
+    width: 50%;
+}
+
+#url {
+    display: flex;
+    flex-flow: column;
+
+    input {
+        font-size: 0.8em;
+        background-color: #fff;
+        outline: none;
+        border: 1px solid #808080;
+        border-radius: 8px;
+        padding: 6px 8px;
+        width: 100%;
+    }
+
+    input:focus {
+        border: 2px solid #1d5dec;
+    }
+}
+
+label {
+    font-size: 0.8em;
+}
+
+#qr-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    height: 100%;
+}
+
+img {
+    max-width: 200px;
+    animation: pulse 1.2s ease-in-out infinite;
+}
+
+img.show {
+    max-width: 200px;
+    animation: none;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#colors-inputs {
+    display: flex;
+    gap: 30px;
+
+    input {
+        border: none;
+        border-radius: 0;
+        padding: 0;
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+.color-input {
+    display: flex;
+    flex-flow: column;
+}
+
+#logo-file {
+    font-size: 0.8em;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 6px 8px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#size {
+    display: flex;
+    flex-flow: column;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    font-size: 0.8em;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #1d5dec;
+    color: #fff;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d5fecef;
+}
