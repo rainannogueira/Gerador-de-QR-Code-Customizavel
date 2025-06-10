@@ -5,7 +5,7 @@
 - ✅ Geração instantânea de QR Code
 - 🎨 Personalização de cores (QR code e fundo)
 - 🖼️ Inserção de logo no centro
-- 🧱 Escolha do tamanho do QR Code
+- 🧱 Escolha do tamanho da logo no QR Code
 - 📥 Download do QR Code gerado (.png)
 
 ## 📸 Preview
