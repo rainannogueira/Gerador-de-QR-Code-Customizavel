@@ -1,0 +1,83 @@
+@media screen and (max-width: 956px) {
+    body {
+        align-items: start;
+        justify-content: start;
+        gap: 0;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    main {
+        flex-flow: column;
+        gap: 0;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+        min-width: 100vw;
+    }
+
+    section {
+        background-color: transparent;
+        border-radius: 0;
+        padding: 18px 20px;
+        width: 100%;
+    }
+
+    #url {
+        label {
+            display: none;
+        }
+
+        input {
+            background-color: #80808010;
+            font-size: 0.9em;
+            border: none;
+            border-radius: 18px;
+            padding: 10px 18px;
+        }
+
+        input:focus {
+            border: none;
+        }
+    }
+
+    label {
+        font-size: 0.9em;
+    }
+
+    img {
+        animation: none;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+
+    .color-input {
+        input {
+            border: 1px solid #808080;
+            border-radius: 0;
+        }
+    }
+
+    #logo > label {
+        padding: 10px 8px;
+        width: 123px;
+    }
+
+    select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        color: #000;
+        font-size: 0.9em;
+        padding: 10px 8px;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 12px 10px;
+        margin-top: 25px;
+    }
+}
